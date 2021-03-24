@@ -18,5 +18,5 @@ utilizar em casos gerar um html para todas as pessoas que acessar a página:
 
 ### Formas de autenficar
 - JWT (Storage)
-- Next Auth (Social) - https://nextjs.org/docs/authentication
+- Next Auth (Social) - https://nextjs.org/docs/authentication - https://next-auth.js.org/
 - Cognito, Auth0
