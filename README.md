@@ -15,3 +15,8 @@ utilizar em casos gerar um html para todas as pessoas que acessar a página:
 - Home de um blog
 - Postagem do blog
 - Produto de um ecomerce
+
+### Formas de autenficar
+- JWT (Storage)
+- Next Auth (Social) - https://nextjs.org/docs/authentication
+- Cognito, Auth0
