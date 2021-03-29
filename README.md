@@ -27,3 +27,26 @@ https://fauna.com/
 ### rodar script
 
 - stripe listen --forward-to localhost:3000/api/webhooks
+
+## CMS (Content Management System)
+- WordPress 
+- Drupal(não usa mais)
+- Magento (e-comerce)
+- Joomla(não usa mais)
+
+### Headless CMS (Painel de adminsitra + API HTTP, GraphQL, SDK)
+Gratis
+- Strapi 
+- Ghost (Blog)
+- Keystone
+
+Pagos
+- GraphCMS
+- Prismac CMS https://prismic.io/
+- Contentful
+
+Ecommerc
+- Shopyfy
+
+# instalando Prismac
+https://prismic.io/
