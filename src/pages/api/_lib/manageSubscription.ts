@@ -51,7 +51,7 @@ export async function saveSubscription(
                             subscriptionId
                         )
                     )
-                ),{data:subscriptionData}
+                ), { data: subscriptionData }
             )
         )
     }
