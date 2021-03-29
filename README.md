@@ -23,3 +23,7 @@ utilizar em casos gerar um html para todas as pessoas que acessar a página:
 
 ## Banco de dados FaunaDB
 https://fauna.com/
+
+### rodar script
+
+- stripe listen --forward-to localhost:3000/api/webhooks
