@@ -15,7 +15,7 @@ interface HomeProps {
 
 
 
-export default function Home({ product }:HomeProps) {
+export default function Home({ product }: HomeProps) {
   return (
     <>
       <Head>
@@ -27,18 +27,14 @@ export default function Home({ product }:HomeProps) {
           <h1>News about the <span>React</span> world.</h1>
           <p>Get access ti all the publications <br />
             <span>for {product.amount} month</span>
-
           </p>
-
           <SubscribeButton priceId={product.priceId} />
-
         </section>
         <img src='/images/avatar.svg' alt='Girl Coding' />
       </main>
     </>
   )
 }
-
 
 export const getStaticProps: GetStaticProps = async () => {
   const price = await stripe.prices.retrieve('price_1IYKLNGPGQqhJnRCHRxTo4xn', {
@@ -47,11 +43,10 @@ export const getStaticProps: GetStaticProps = async () => {
 
   const product = {
     priceId: price.id,
-    amount: new Intl.NumberFormat('en-US',{
-      style:'currency',
-      currency:'USD',
+    amount: new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: 'USD',
     }).format(price.unit_amount / 100),
-
   }
 
   return {

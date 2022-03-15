@@ -1,3 +1,22 @@
+# Resumo e descrição do projeto**
+
+Desafio do Bootcamp Ignite, pela empresa Rocketseat.<br/>
+Projeto desenvolvemos uma aplicação de um blog que utiliza o Prismic, para criar as postagens.<br/>
+Usamos o Login do github, 
+
+## Imagens
+
+<img src="public/ignews-home.png" >
+
+## Tecnologias
+
+Este projeto foi feito utilizando as seguintes tecnologias:
+
+- [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [NextJS](https://nextjs.org/)
+
+
 # Anotações  gerais
 
 ## _document.tsx
