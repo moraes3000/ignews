@@ -18,10 +18,10 @@ export function SubscribeButton({ priceId }: SubscribeButtonProps) {
             signIn('github')
             return;
         }
-        if (session.activeSubscription) {
-            router.push('/posts')
-            return;
-        }
+        // if (session.activeSubscription) {
+        //     router.push('/posts')
+        //     return;
+        // }
 
         // criar  o checkout useSession
         try {
